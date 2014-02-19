@@ -1,0 +1,58 @@
+#Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+.DS_Store
+.idea
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+# Compiled source #
+# ###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+ 
+# # Packages #
+# ############
+# # it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# .swp and file ending with ~
+*.swp #This file type is created in case development is done using VIM, more info here:http://www.fileinfo.com/extension/swp
+*.*.~
+
+# .htaccess and .htpasswd files
+.htaccess
+.htpasswd
+/nbproject/private/
+nbproject
+
+#eclipse configurations
+.buildpath
+.project
+.settings
+.settings/*
+
+# devel module
+sites/all/module/devel
+
+# node modules
+sites/all/modules/nodejs/node_modules
+sites/all/modules/nodejs/nodejs.config.js
