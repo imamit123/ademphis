@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+.mainmenu{
+    -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    padding-bottom: 32px;
+    padding-left: 8px;
+    padding-right: 8px;
+margin:0;
+/*    padding-top: 25px;*/
+}
+
+
+
+.mainmenu li {
+    display: inline;
+    float: left;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+.mainmenu li a {
+    -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    padding-bottom: 32px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 29px;
+}
+
+.mainmenu li ul li a {
+    -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+	padding:10px 0 10px 15px;
+width:170px;
+
+}
+/* HTML5 display-role reset for older browsers*/
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+/*self clearfixing*/
+section:before, section:after, article:before, article:after {clear: both; content: ""; display: table;}
+/* new clearfix */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+/*END RESET*/
+
+
+.nav {
+    position: relative;
+    z-index: 5;
+    margin: 100px auto;
+
+}
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+    display: block;
+    text-transform:uppercase;
+    font-size: 1.5em;
+    color: rgb(56,56,56);
+    text-decoration: none;
+    padding: 1em;
+}
+.nav > ul > li:hover > a{
+    color: rgb(87,183,223);
+    text-shadow: 0px 1px 0px #050505;
+    background: rgb(56,56,56);
+}
+.nav > ul > li:first-child:hover a{
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+     border-radius: 3px 0 0 3px;
+
+}
+.nav > ul > li:last-child:hover a{
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+     border-radius: 0 3px 3px 0;
+}
+/*DROPDOWN*/
+.menuparent{
+    position: relative;
+}
+.menuparent:after  {
+    content: ' \25bc';
+    position: absolute;
+    margin: -1.5em 0 0 45%;
+    color: rgb(90,187,229);
+    text-shadow: 0px 1px 0px #4c9ec2;
+}
+.menuparent:hover:after {
+    content: ' \25b2';
+    color: rgb(70,70,70);
+    text-shadow: 0px -1px 0px #000000;
+}
+.mainmenu li ul{
+    position:absolute;
+    list-style:none;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 4px;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    -webkit-box-shadow: 0px 1px 0px 0px #cccccc;
+    -moz-box-shadow: 0px 1px 0px 0px #cccccc;
+    box-shadow: 0px 1px 0px 0px #cccccc;
+    background: rgb(56,56,56);
+	min-width: 186px;
+}
+.nav li:hover  ul{
+    display: block;
+    margin:0;
+    opacity: 1;
+    visibility: visible;
+}
+.mainmenu li ul li{
+    display: block;
+}
+
+.mainmenu li ul a {
+    display: block;
+    padding: 0.6em 1em 0.6em 1em;
+    text-transform:uppercase;
+    font-size: 1em;
+    word-spacing: 0.3em;
+    white-space:nowrap;
+    color: rgb(87,183,223);
+    text-shadow: 0px 1px 0px #050505;
+}
+.mainmenu li ul li:hover a{
+    color: #63d0ff;
+    text-decoration: none;
+/*    text-shadow: 0px 1px 0px #63d0ff;*/
+}
+.mainmenu li ul > li:last-child:hover a{
+     -webkit-border-radius: 0 0 3px 3px;
+     -moz-border-radius: 0 0 3px 3px;
+     border-radius: 0 0 3px 3px;
+}
+​

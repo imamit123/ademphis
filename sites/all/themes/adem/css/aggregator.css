@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+#aggregator .feed-source .feed-title {
+	margin-top: 0;
+}
+#aggregator .feed-source .feed-image img {
+	margin-bottom: 0.75em;
+}
+#aggregator .feed-source .feed-icon {
+	float: right;
+	display: block;
+}
+#aggregator .feed-item {
+	margin-bottom: 1.5em;
+}
+#aggregator .feed-item-title {
+	margin-bottom: 0;
+	font-size: 1.3em;
+}
+#aggregator .feed-item-meta, #aggregator .feed-item-body {
+	margin-bottom: 0.5em;
+}
+#aggregator .feed-item-categories {
+	font-size: 0.9em;
+}
+#aggregator td {
+	vertical-align: bottom;
+}
+#aggregator td.categorize-item {
+	white-space: nowrap;
+}
+#aggregator .categorize-item .news-item .body {
+	margin-top: 0;
+}
+#aggregator .categorize-item h3 {
+	margin-bottom: 1em;
+	margin-top: 0;
+}
+.field .field-label {
+	font-weight: bold;
+}
+.field-label-inline .field-label, .field-label-inline .field-items {
+	float: left;
+}
+form .field-multiple-table {
+	margin: 0;
+}
+form .field-multiple-table th.field-label {
+	padding-left: 0;
+}
+form .field-multiple-table td.field-multiple-drag {
+	width: 30px;
+	padding-right: 0;
+}
+form .field-multiple-table td.field-multiple-drag a.tabledrag-handle {
+	padding-right: .5em;
+}
+form .field-add-more-submit {
+	margin: .5em 0 0;
+}
+.node-unpublished {
+	background-color: #fff4f4;
+}
+.preview .node {
+	background-color: #ffffea;
+}
+td.revision-current {
+	background: #ffc;
+}
