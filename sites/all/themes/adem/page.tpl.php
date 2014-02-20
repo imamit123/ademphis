@@ -16,6 +16,7 @@
             <?php endif; ?></div>
         </div>
         <div class="divider-vertical"></div>
+
         <div class="nav-container nav-links">
           
             <div id="navigation" class="block block-nice-menus block-odd">
@@ -29,16 +30,15 @@
             }
             print drupal_render($main_menu_tree);
             endif; ?> */?>
-			<div class="nav">
+      <div class="nav">
 <?php print render($page['dutch']); ?>
 </div>
             </div>
           </div>
-      <?php
+         <?php
            $block = module_invoke('nice_menus', 'block_view', 1);
            print render($block['content']);
          ?>
-       
         <div class="divider-vertical"></div>
         <div class="nav-container phone"><?php print render($page['search_area']); ?></div>
 
@@ -175,17 +175,18 @@
       
     </div>
   </div>
-  <?php if ($is_front): ?>
+  
+  <?php /*if ($is_front): ?>
   <div id="site-main-content" class="container_19">
     <div class="grid_19" id="content">
       <div class="inner column center" id="content-inner">
         <div id="content-header">
           <div class="tabs"></div>
-        </div>
+        </div> -->
         <!-- /#content-header -->
 
-	
-            </div>
+  
+            </div> 
 
 
         <div id="content-area">
@@ -227,7 +228,7 @@
       </div>
     </div>
   </div>
-   <?php endif; ?>
+   <?php endif;*/ ?>
   <!-- /block-inner /block --> 
   
 </div>
@@ -277,7 +278,7 @@
                                   <li class="first">
                                     <h4>Tools</h4>
                                   </li>
-								
+                
                                   <?php print render($page['footer_first']); ?>  
                                 </ul>
                               </div>
@@ -298,16 +299,16 @@
                               </div>
                               
                               <div class="grid_4">
-                                <h4>Stay Connected:</h4>
+                                <h4 class="stay">Stay Connected:</h4>
 
                                  <?php print render($page['footer_bottom_right']); ?> 
-								 <h4 style="float: left;width: 150px;">Switch To:</h4>
-								 <style>
-								 .region.region-english {		 
-								 float: left; width: 150px;}
-								 
-								 .language-link.active:hover{ opacity:0.6}
-								 </style>
+                 <h4 class="switch">Switch To:</h4>
+                 <style>
+                 .region.region-english {    
+                 float: left; width: 150px;}
+                 
+                 .language-link.active:hover{ opacity:0.6}
+                 </style>
  <?php print render($page['english']); ?> 
                                 <!-- /social-media --></div>
                             </div>
