@@ -107,7 +107,7 @@ ul.cssMenu li:hover > ul:before {
 
 /* ======== END login hover ========= */
 
-#nav ul.nice-menu li a, #nav ul.nice-menu li a:hover {
+#nav ul.nice-menu > li > a, #nav ul.nice-menu > li > a:hover {
   color: white !important;
   padding: 25px 8px 32px 8px !important;
   text-transform: none;

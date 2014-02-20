@@ -34,6 +34,10 @@
 </div>
             </div>
           </div>
+      <?php
+           $block = module_invoke('nice_menus', 'block_view', 1);
+           print render($block['content']);
+         ?>
        
         <div class="divider-vertical"></div>
         <div class="nav-container phone"><?php print render($page['search_area']); ?></div>
