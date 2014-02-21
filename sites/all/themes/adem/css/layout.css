@@ -2689,9 +2689,9 @@ body {
 .container_19 .grid_2 {
 	width: 100px;
 }
-.container_19 .grid_3 {
+/*.container_19 .grid_3 {
 	width: 132px;
-margin-left: 34px;
+
 border-right: 1px solid rgba(255,255,255,0.15);
 height: 245px !important;
 margin-right: 37px;
@@ -2701,6 +2701,7 @@ margin-top: 10px;
 .container_19 .grid_4 {
 	width: 220px;
 }
+*/
 .container_19 .grid_5 {
 	width: 280px;
 }
@@ -14500,9 +14501,12 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endCo
 margin-top: -24px;
 }
 **/
+/*
 .footer-links-inner {
 margin-left: 80px;
 }
+*/
+
 .mainmenu li a:hover {
 background-image: linear-gradient(to bottom, #292929, #3f3f3f);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff292929', endColorstr='#ff3f3f3f', GradientType=0);
@@ -14640,4 +14644,34 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e2e2e', endCo
 }
 #footer-sitemap ul{
 margin-left:0px;
+}
+
+.footer-links .region.region-english {
+    margin-left: 69px;
+    margin-top: -46px;
+    
+}
+.switch {
+    padding-left: 174px;
+    padding-top: 12px;
+}
+.stay {
+    display: inline;
+    float: left;
+    margin-top: 10px;
+}
+
+.container_19 .grid_4 {
+    width: 344px;
+}
+
+.container_19 .grid_3 {
+    margin-left: 38px;
+}
+.container_19 .grid_3 {
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    height: 245px !important;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 136px;
 }
