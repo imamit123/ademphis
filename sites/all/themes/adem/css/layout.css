@@ -14646,19 +14646,25 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e2e2e', endCo
 margin-left:0px;
 }
 
-.footer-links .region.region-english {
-    margin-left: 69px;
-    margin-top: -46px;
-    
+
+.switchtoblock{
+	display: inline-block;
+    float: left;
+    margin-left: 30px;
+    margin-top: 17px;
+    width: 151px;
+}
+.stayconectblock{
+    display: inline-block;
+    float: left;
 }
 .switch {
-    padding-left: 174px;
-    padding-top: 12px;
+   
+    padding-top: 0;
 }
 .stay {
-    display: inline;
     float: left;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .container_19 .grid_4 {
@@ -14672,6 +14678,6 @@ margin-left:0px;
     border-right: 1px solid rgba(255, 255, 255, 0.15);
     height: 245px !important;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 17px;
     width: 136px;
 }

@@ -299,9 +299,11 @@
                               </div>
                               
                               <div class="grid_4">
+                              <div class="stayconectblock">
                                 <h4 class="stay">Stay Connected:</h4>
 
-                                 <?php print render($page['footer_bottom_right']); ?> 
+                                 <?php print render($page['footer_bottom_right']); ?> </div>
+                                 <div class="switchtoblock">
                  <h4 class="switch">Switch To:</h4>
                  <style>
                  .region.region-english {    
@@ -309,7 +311,7 @@
                  
                  .language-link.active:hover{ opacity:0.6}
                  </style>
- <?php print render($page['english']); ?> 
+ <?php print render($page['english']); ?></style></div>
                                 <!-- /social-media --></div>
                             </div>
                             <!-- /footer-links-inner --></div>
