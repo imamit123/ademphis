@@ -14626,7 +14626,7 @@ padding: 10px 9px 12px 9px;
 	
 }
 #footer-wrapper {
-	margin-top: 40px;
+	margin-top: 40x;
 	width: 100%;
 	background-image: linear-gradient(to bottom, #2e2e2e, #262626);
 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2e2e2e', endColorstr='#ff262626', GradientType=0);
@@ -14689,7 +14689,7 @@ margin-left:0px;
 	background: none;
 	border: medium none;
 	border-radius: 11px;
-	bottom: 38px;
+	bottom: 40px;
 	cursor: pointer;
 	float: right;
 	height: 25px;
