@@ -14705,3 +14705,7 @@ margin-left:0px;
 display: inline-block;
     width: 150px;
 }
+#footer-wrapper {
+    float: left;
+    width: 100%;
+}
