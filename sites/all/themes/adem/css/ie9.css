@@ -124,7 +124,7 @@ a.btn {
 
 .verticals a {
   text-decoration: none;
-}
+};
 
 div {
   position: relative;
@@ -158,7 +158,7 @@ div {
   position: absolute;
 }
 .carousel-nav .carousel-nav-inner:hover {
-  cursor: default;
+  cursor: default;;
 }
 .carousel-nav.left .carousel-nav-inner {
   left: 16px;
@@ -188,7 +188,7 @@ div {
 }
 .slider-bubbles ul {
   list-style: none;
-  width: 100%;
+  width: 100%;;
 }
 
 .slider-bubbles .slider-bubble {
@@ -200,7 +200,7 @@ div {
   margin: 0 2px;
   width: 10px;
   height: 10px;
-  
+  ;
   list-style: none;
   display: inline-block;
 }
@@ -263,7 +263,7 @@ ul#verticals li:hover:before {
   width: 100%;
   top: 0px;
   left: 0;
-  border-top: 6px solid rgb(12, 75, 143);
+  border-top: 6px solid rgb(12, 75, 143);;
 }
 ul#verticals li:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b65c6',endColorstr='#0b65c6',GradientType=0)";
@@ -280,7 +280,7 @@ ul#verticals h2.vertical-title {
   opacity: 0.6;
 }
 
-
+;
 /* ======= Main Nav ========== */
 .header-callout#try-before-you-buy .btn {
   font-size: 12pt;
@@ -308,6 +308,7 @@ ul#verticals h2.vertical-title {
   color: #FFF;
   border-bottom: thin solid white;
   margin-bottom: 15px;
+  width: 331px;
 }
 #header_slider .slide-content .slide-title span {
   font-weight: bold;

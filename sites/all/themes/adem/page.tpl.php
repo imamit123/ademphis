@@ -101,7 +101,7 @@
             
             <a class="banner-action" href="node/11">
             <div class="banner">
-              <h2>Ademphis Media Solutions © 1999 - <?php echo date("Y");?> </h2>
+              <h2>Ademphis Web Solutions © 1999- <?php echo date("Y");?> </h2>
             </div>
             </a>
             
