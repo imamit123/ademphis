@@ -14715,3 +14715,18 @@ display: inline-block;
 #content-top-full .block-inner .banner > h2 {
     display: block;
 }
+/*double menu white removal*/
+ ul.nice-menu li {
+background: url("../images/bg_nav-dark-new.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0) !important;
+border: none;
+}
+
+
+ul.nice-menu li a{
+ padding:9px 18px !important;
+ color:#fff !important;
+}
+
+ul.nice-menu ul{
+ top:100% !important;
+}
