@@ -14650,11 +14650,12 @@ margin-left:0px;
     margin-left: 30px;
     margin-top: 15px;
     padding-left: 31px;
-    width: 151px;
+    width: 136px;
 }
 .stayconectblock{
     display: inline-block;
     float: left;
+    width: 136px;
 }
 .switch {
    
@@ -14663,6 +14664,7 @@ margin-left:0px;
 .stay {
     float: left;
     margin-top: 16px;
+    width: 100%;
 }
 
 .container_19 .grid_4 {
@@ -14724,4 +14726,7 @@ ul.nice-menu li a{
 
 ul.nice-menu ul{
  top:100% !important;
+}
+.btn.btn-large.btn-danger {
+   color: #fff;
 }
