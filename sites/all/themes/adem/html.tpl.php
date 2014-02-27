@@ -66,6 +66,10 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
+<div style="visibility:hidden">
+<a href="http://apycom.com/">Apycom jQuery Menus</a>
+</div>
 <?php print $scripts; ?>
+
 </body>
 </html>
