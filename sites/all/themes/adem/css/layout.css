@@ -14648,10 +14648,13 @@ margin-left:0px;
 
 
 .switchtoblock{
-	display: inline-block;
+	border-left: 1px solid rgba(255, 255, 255, 0.15);
+    display: inline-block;
     float: left;
+    height: 245px;
     margin-left: 30px;
-    margin-top: 21px;
+    margin-top: 15px;
+    padding-left: 31px;
     width: 151px;
 }
 .stayconectblock{
@@ -14660,7 +14663,7 @@ margin-left:0px;
 }
 .switch {
    
-    padding-top: 0;
+    padding-top: 4px;
 }
 .stay {
     float: left;
