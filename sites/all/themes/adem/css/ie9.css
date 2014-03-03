@@ -233,7 +233,7 @@ div {
 }
 ul#verticals, #verticals-background {
 	
-    top: 349px;
+    top: 369px;
 }
 ul#verticals {
   list-style:none;
@@ -245,7 +245,7 @@ ul#verticals {
   margin: 0 0 18px 0;
 }
 ul#verticals li {
-  height: 190px;
+  height: 170px;
   margin: 0 0 20px;
   position: relative;
   width: 220px; 

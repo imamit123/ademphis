@@ -13542,7 +13542,7 @@ ul#verticals li h2 {
 	color: #ffffff;
 	font-family: "Helvetica Neue", "HelveticaNeueW01", Helvetica, sans-serif;
 	font-weight: 400;
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 	margin: 0px;
 }
 ul#verticals li:last-child {
@@ -14655,7 +14655,8 @@ margin-left:0px;
 .stayconectblock{
     display: inline-block;
     float: left;
-    width: 136px;
+    width: 123px;
+    padding-left: 13px;
 }
 .switch {
    
