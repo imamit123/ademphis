@@ -81,10 +81,10 @@
                        <?php if ($page['tourism']): ?><?php print render($page['tourism']); ?><?php endif; ?>
 
                     </li>
-                    <li title="Business" style="cursor: pointer; " value="click here" onclick="location.href='node/45'" id="vertical-support" class="span3">
+                    <li title="Education" style="cursor: pointer; " value="click here" onclick="location.href='node/45'" id="vertical-support" class="span3">
                        <?php if ($page['hosting']): ?><?php print render($page['hosting']); ?><?php endif; ?>
                     </li>
-                    <li title="Education" style="cursor: pointer; " value="click here" onclick="location.href='node/46'" id="vertical-sales" class="span3">
+                    <li title="Business" style="cursor: pointer; " value="click here" onclick="location.href='node/46'" id="vertical-sales" class="span3">
                       <?php if ($page['tools']): ?><?php print render($page['tools']); ?><?php endif; ?>
                     </li>
                     </li>
