@@ -2131,10 +2131,10 @@ background: url("../images/bg_nav-dark-new.png") repeat-x scroll 0 0 rgba(0, 0, 
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e2e2e', endColorstr='#262626', GradientType=0);
   color: #b4b4b4;
 }
-#footer .region-footer {
+/*#footer .region-footer {
   padding: 20px 0;
 }
-/*#footer .footer-links {
+#footer .footer-links {
   border-top-style: solid;
   border-top-color: #222222;
   border-width: 2px;
