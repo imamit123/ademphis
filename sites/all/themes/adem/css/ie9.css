@@ -242,10 +242,10 @@ ul#verticals {
   left:0;
   width:100%;
   z-index:20;
-  margin: 0 0 18px 0;
+  
 }
 ul#verticals li {
-  height: 170px;
+  
   margin: 0 0 20px;
   position: relative;
   width: 220px; 
@@ -484,6 +484,7 @@ ul#verticals h2.vertical-title {
 /* ========= Footer styles ========= */
 #footer-wrapper a {
   text-decoration: none;
+  font-size: 11px;
 }
 #footer-wrapper a:hover {
   text-decoration: underline;
