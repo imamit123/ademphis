@@ -14732,6 +14732,7 @@ ul.nice-menu ul{
 .btn.btn-large.btn-danger {
    color: #fff;
 }
-#nice-menu-1 {
-padding-right: 20px;
+
+#nice-menu-1 > li.menu-329.menuparent.menu-path-node-11.active-trail.odd.last {
+padding-right: 27px;
 }
