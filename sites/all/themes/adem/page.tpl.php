@@ -20,7 +20,7 @@
         <div class="nav-container nav-links">
           
             <div id="navigation" class="block block-nice-menus block-odd">
-       <?php/* <?php if ($page['navigation']) :?>
+       <!--<?php/* <?php if ($page['navigation']) :?>
             <?php print drupal_render($page['navigation']); ?>
             <?php else :
             if (module_exists('i18n_menu')) {
@@ -29,7 +29,7 @@
             $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu')); 
             }
             print drupal_render($main_menu_tree);
-            endif; ?> */?>
+            endif; ?> */?>-->
       <div class="nav">
 <?php print render($page['dutch']); ?>
 </div>
@@ -77,19 +77,21 @@
                   </div>
               
                   <ul id="verticals">
-                    <li title="Marketing" style="cursor: pointer; " value="click here" onclick="location.href='node/3'" id="vertical-marketing" class="span3">
+                    <li title="Tourism" style="cursor: pointer; " value="click here" onclick="location.href='node/3'" id="vertical-marketing" class="span3">
+                       <?php if ($page['tourism']): ?><?php print render($page['tourism']); ?><?php endif; ?>
+
+                    </li>
+                    <li title="Education" style="cursor: pointer; " value="click here" onclick="location.href='node/4'" id="vertical-sales" class="span3">
+                      <?php if ($page['tools']): ?><?php print render($page['tools']); ?><?php endif; ?>
+                    </li>
+                    </li>
+                    <li title="Business" style="cursor: pointer; " value="click here" onclick="location.href='node/9'" id="vertical-support" class="span3">
                        <?php if ($page['hosting']): ?><?php print render($page['hosting']); ?><?php endif; ?>
                     </li>
-                    <li title="Sales" style="cursor: pointer; " value="click here" onclick="location.href='node/4'" id="vertical-sales" class="span3">
-                       <?php if ($page['apps']): ?><?php print render($page['apps']); ?><?php endif; ?>
                     </li>
-                    </li>
-                    <li title="Support" style="cursor: pointer; " value="click here" onclick="location.href='node/9'" id="vertical-support" class="span3">
-                       <?php if ($page['tourism']): ?><?php print render($page['tourism']); ?><?php endif; ?>
-                    </li>
-                    </li>
-                    <li title="Support" style="cursor: pointer; " value="click here" onclick="location.href='node/5'" id="vertical-platform" class="span3">
-                       <?php if ($page['tools']): ?><?php print render($page['tools']); ?><?php endif; ?>
+                    <li title="Apps" style="cursor: pointer; " value="click here" onclick="location.href='node/5'" id="vertical-platform" class="span3">
+                       
+                        <?php if ($page['apps']): ?><?php print render($page['apps']); ?><?php endif; ?>
                     </li>
                       <div class="arrow"></div>
                     </li>
